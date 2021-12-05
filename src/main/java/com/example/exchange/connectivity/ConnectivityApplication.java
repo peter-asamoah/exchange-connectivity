@@ -38,6 +38,20 @@ import reactor.core.publisher.Mono;
 			System.out.println(id);
 
 
+			String correctID = id.substring(1, id.length() - 1);
+
+
+//			String orderStatus = webClient
+//					.get().uri("/order/"+correctID)
+//					.retrieve().bodyToMono(String.class).block();
+//			System.out.println(orderStatus);
+
+
+
+
+
+
+
 
 /*
 			String base_order_url = "https://exchange.matraining.com/" + API_KEY;
@@ -62,6 +76,11 @@ import reactor.core.publisher.Mono;
 			System.out.println(id);
 
 */
+
+
+
+
+
 
 		}
 
